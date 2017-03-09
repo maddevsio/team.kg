@@ -2,7 +2,7 @@
 body{
   background: #dfdfdf;
   color: #333;
-  padding: 0 30px;
+  padding: 0 20px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -10,7 +10,7 @@ body{
 
 .logotype{
   max-width: 260px;
-  margin: 20vh auto 5vh;
+  margin: 5% auto 5vh;
   display: flex;
   align-items:center;
   justify-content: center;
@@ -28,7 +28,7 @@ body{
 .contacts{
   display: flex;
   max-width: 500px;
-  margin: 35px auto;
+  margin: 35px auto 15px;
   justify-content: space-between;
   flex-wrap: wrap;
   a{
@@ -49,10 +49,31 @@ body{
   }
   @media screen and (max-width: 800px){
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     a{
-      justify-content: space-around;
-      margin: 7px auto;
+      width: 155px;
+      justify-content: flex-start;
+      margin: 12px auto;
+      text-decoration: underline;
+      text-underline-color: #496878;
     }
   }
+}
+@media screen and (max-width: 800px){
+  .logotype{
+    max-width: 100px;
+    margin: 5vh auto 5vh;
+  }
+  .information{
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .contacts{
+    margin-top: 10px;
+  }
+}
+.soon-text{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 25px;
 }
