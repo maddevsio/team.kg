@@ -28,12 +28,11 @@ body{
 .contacts{
   display: flex;
   max-width: 500px;
-  margin: 35px auto 15px;
+  margin: 35px auto 35px;
   justify-content: space-between;
   flex-wrap: wrap;
   a{
     font-size: 14px;
-    text-decoration: none;
     display: flex;
     align-items: center;
     color: #333;
@@ -76,4 +75,5 @@ body{
   text-align: center;
   font-size: 14px;
   margin-bottom: 25px;
+  opacity: .5;
 }
