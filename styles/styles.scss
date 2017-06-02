@@ -10,7 +10,7 @@ body{
 
 .logotype{
   max-width: 260px;
-  margin: 5% auto 5vh;
+  margin: 5% auto 2vh;
   display: flex;
   align-items:center;
   justify-content: center;
@@ -18,11 +18,18 @@ body{
     width: 100%;
   }
 }
+.description{
+  font-size: 22px;
+  max-width: 660px;
+  margin: 0 auto 3vh;
+  font-weight: 900;
+  color: #496878;
+}
 .information{
   text-align: left;
   border-bottom: 1px solid #496878;
   padding:0 0 35px;
-  max-width: 500px;
+  max-width: 660px;
   margin: 15px auto ;
 }
 .contacts{
@@ -58,10 +65,18 @@ body{
     }
   }
 }
+@media screen and (max-width: 1300px){
+  .logotype{
+    max-width: 190px;
+  }
+}
 @media screen and (max-width: 800px){
   .logotype{
     max-width: 100px;
     margin: 5vh auto 5vh;
+  }
+  .description{
+    text-align: center;
   }
   .information{
     font-size: 14px;
